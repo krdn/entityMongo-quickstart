@@ -6,7 +6,9 @@ using MongoDB.Bson;
 using MongoDB.Driver;
 using MongoDB.EntityFrameworkCore.Extensions;
 
-var connectionString = Environment.GetEnvironmentVariable("MONGODB_URI");
+//var connectionString = Environment.GetEnvironmentVariable("MONGODB_URI");
+var connectionString = "mongodb+srv://krdn:korea123@cluster0.p2gcutn.mongodb.net/?retryWrites=true&w=majority";
+
 
 if (connectionString == null)
 {
